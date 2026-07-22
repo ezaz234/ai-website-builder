@@ -1,0 +1,1 @@
+// Add event listener to the window object to handle the load event window.addEventListener('load', function() { console.log('Page loaded'); }); // Add event listener to the document object to handle the click event document.addEventListener('click', function(event) { if (event.target.tagName === 'A') { event.preventDefault(); console.log('Link clicked'); } });
